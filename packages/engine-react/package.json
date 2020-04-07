@@ -5,7 +5,7 @@
   "main": "lib/engine_react.js",
   "dependencies": {
     "babel-core": "^6.17.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.16.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-preset-react": "^6.16.0",
     "cheerio": "^0.22.0",
     "hogan": "^1.0.2",
