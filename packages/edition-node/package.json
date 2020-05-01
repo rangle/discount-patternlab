@@ -6,7 +6,8 @@
   "dependencies": {
     "@pattern-lab/core": "^3.0.0-alpha.11",
     "@pattern-lab/engine-mustache": "^2.0.0-alpha.5",
-    "@pattern-lab/uikit-workshop": "^1.0.0-alpha.4"
+    "@pattern-lab/uikit-workshop": "^1.0.0-alpha.4",
+    "snyk": "^1.316.1"
   },
   "keywords": [
     "Pattern Lab",
@@ -20,7 +21,9 @@
   "scripts": {
     "build": "node ./scripts/build.js",
     "help": "node ./scripts/help.js",
-    "serve": "node ./scripts/serve.js"
+    "serve": "node ./scripts/serve.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "MIT",
   "engines": {
@@ -28,5 +31,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
