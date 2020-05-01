@@ -11,7 +11,8 @@
     "hogan": "^1.0.2",
     "js-beautify": "^1.6.4",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "@pattern-lab/core": ">2"
@@ -29,12 +30,15 @@
   "author": "Brian Muenzenmeyer & Geoffrey Pursell",
   "license": "MIT",
   "scripts": {
-    "test": "grunt travis --verbose"
+    "test": "grunt travis --verbose",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=6"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
