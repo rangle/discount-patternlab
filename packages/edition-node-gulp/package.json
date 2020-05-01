@@ -8,7 +8,8 @@
     "@pattern-lab/engine-mustache": "^2.0.0-alpha.5",
     "@pattern-lab/uikit-workshop": "^1.0.0-alpha.4",
     "gulp": "^3.9.1",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "snyk": "^1.316.1"
   },
   "keywords": [
     "Pattern Lab",
@@ -21,7 +22,9 @@
   "bugs": "https://github.com/pattern-lab/patternlab-node/issues",
   "author": "Brian Muenzenmeyer",
   "scripts": {
-    "gulp": "gulp -- "
+    "gulp": "gulp -- ",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "license": "MIT",
   "engines": {
@@ -29,5 +32,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "snyk": true
 }
