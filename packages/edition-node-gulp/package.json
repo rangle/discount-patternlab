@@ -4,7 +4,7 @@
   "version": "2.0.0-alpha.7",
   "main": "gulpfile.js",
   "dependencies": {
-    "@pattern-lab/core": "^3.0.0-alpha.11",
+    "@pattern-lab/core": "^5.13.0",
     "@pattern-lab/engine-mustache": "^2.0.0-alpha.5",
     "@pattern-lab/uikit-workshop": "^1.0.0-alpha.4",
     "gulp": "^3.9.1",
