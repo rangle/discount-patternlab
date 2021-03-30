@@ -4,7 +4,7 @@
   "version": "1.0.0-alpha.5",
   "main": "patternlab-config.json",
   "dependencies": {
-    "@pattern-lab/core": "^3.0.0-alpha.11",
+    "@pattern-lab/core": "^5.14.2",
     "@pattern-lab/engine-mustache": "^2.0.0-alpha.5",
     "@pattern-lab/uikit-workshop": "^1.0.0-alpha.4"
   },
